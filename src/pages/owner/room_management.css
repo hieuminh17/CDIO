@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    padding: 40px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.header-left {
+    gap: 20px;
+}
+.btn-search {
+    background-color: #3C4448;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-right{
+    gap: 10px;
+}
+.header-right button{
+    background-color: #D0E6EA;
+}
+.body {
+    padding: 40px;
+}
+.body-title {
+    color: #606C72;
+}
+.btn-new {
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 10px 10px 0px 0px;
+
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+.body-content {
+    padding: 20px 10px;
+}
+.room-item {
+    width: 300px;
+}
+.room-header {
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hired {
+    background-color: #00FF94;
+}
+.available {
+    background-color: #D6D5D4;
+}
+.icon-bed {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+
+}
+.room-name {
+    font-size: 16px;
+    color: #3C4448;
+    font-weight: 700;
+}
+.status-room {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.vr-h {
+    width: 1px;
+    background-color: #000;
+}
+.room-date span {
+    font-size: 12px;
+}
+.room-date .date {
+    font-size: 14px;
+}
+.room-body {
+    padding: 20px;
+
+}
+.user-info, .price-room {
+    gap: 15px;
+    align-items: center;
+}
+.user-info .name-user {
+    font-weight: 400;
+}
+.info-guest {
+    gap: 10px;
+}
+.info-guest .icon {
+    width: 18px;
+}
+.price-room .price {
+    font-weight: 600;
+}
+.status-pay .status {
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.status-paid {
+    background-color: #00FF94;
+}
+.status-pend {
+    background-color: #F6F6BD;
+}
+.room-footer {
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.room-create {
+    width: 300px;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+}
+.room-create span {
+    font-size: 40px;
+}
+
+
+
+
+
+
+.modal-content {
+    border-radius: 15px;
+}
+.modal-header {
+    position: relative;
+    border-bottom: none;
+    padding-top: 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.modal-header-top {
+    width: 400px;
+    background-color: #3C4448;
+    color: #F6F6BD;
+    border-radius: 0px 0px 40px 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.modal-header .btn-close {
+    position: absolute;
+    right: 20px;
+}
+.form-group .form-control {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.modal-body .form-select {
+    border-radius: 8px;
+    margin-top: 34px;
+}
+.modal-footer {
+    border-top: none;
+}
+.modal-footer .btn-cancel, .modal-footer .btn-create {
+    color: #fff;
+}
+.modal-footer .btn-cancel {
+    background-color: #EF4444;
+}
+.modal-footer .btn-create {
+    background-color: #334155;
+}
+
+.modal-detail .modal-header{
+    justify-content: left;
+    padding: 0;
+}
+.modal-header-left {
+    padding: 30px;
+    background-color: #00FF94;
+    border-radius: 0px 0px 50px 0px;
+    gap: 40px;
+    /* background-color: linear-gradient(#00FF94 100%, #44C28D 100%); */
+}
+.modal-header-left .icon-bed {
+    font-size: 40px;
+}
+.left-content {
+    margin-left: 0px;
+    
+}
+.modal-header .rent-cost {
+    font-size: 16px;
+    font-weight: 500;
+}
+.modal-header .rent-cost-price {
+    background-color: #F6F6BD;
+    padding: 5px 10px;
+    font-weight: 500;
+    width: 150px;
+}
+.modal-header-right {
+    padding: 20px 80px 20px 20px;
+}
+
+.users {
+    background-color: #F5F5F5;
+    height: 300px;
+    padding: 20px 30px;
+    border-radius: 6px;
+    gap: 20px;
+}
+.info-user {
+    font-weight: 600;
+    font-size: 16px;
+}
+.service {
+    padding: 0 80px 20px 10px;
+}
+.service-water, .service-electric {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.service-electric {
+    margin-top: 31px;
+}
+
+.modal-detail .modal-body {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.modal-body .total-price {
+    background-color: #D9D9D9;
+    padding: 10px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.modal-body .btn-edit-room {
+    background-color: #F6F6BD;
+    padding: 8px;
+    width: 100%;
+}
